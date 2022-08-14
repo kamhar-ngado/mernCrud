@@ -1,0 +1,33 @@
+
+### check data on database
+http://localhost:5000/users
+
+### get data from database
+GET http://localhost:5000/users
+
+###
+GET http://localhost:5000/users/62f7c730572d68610bfaba67
+
+###
+# send data to the database
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name": "huahua",
+    "email": "huahua@gmail.com",
+    "gender": "male"
+}
+
+###
+PATCH http://localhost:5000/users/62f7c730572d68610bfaba67
+Content-Type: application/json
+
+{
+    "name": "deli",
+    "email": "deli@gmail.com",
+    "gender": "female"
+}
+
+###
+DELETE http://localhost:5000/users/62f7cf0fdb611ef01d202e01
