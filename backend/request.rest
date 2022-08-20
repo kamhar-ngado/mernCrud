@@ -14,9 +14,9 @@ POST http://localhost:5000/users
 Content-Type: application/json
 
 {
-    "name": "huahua",
-    "email": "huahua@gmail.com",
-    "gender": "male"
+    "name": "deli",
+    "email": "deli@gmail.com",
+    "gender": "female"
 }
 
 ###
