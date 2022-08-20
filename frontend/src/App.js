@@ -1,7 +1,9 @@
+import UserList from "./components/UserList";
+
 const App = () => {
   return (
-    <div>
-      <h1>lorem</h1>
+    <div className="container">
+      <UserList />
     </div>
   );
 };
